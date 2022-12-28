@@ -1,0 +1,131 @@
+.hide {
+  display: none;
+  transition: 3s;
+}
+.container {
+  height: 100vh;
+  background: #100e1d;
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  height: 100vh;
+}
+.main--content {
+  position: relative;
+  left: -100%;
+  transition: 1s all;
+  height: 100vh;
+  background: #1e213a;
+}
+.options {
+  display: flex;
+  padding: 1.5em;
+  align-items: center;
+  justify-content: space-between;
+}
+.goToSearch {
+  padding: 0.8em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  color: #e7e7eb;
+  background: #6e707a;
+  border: none;
+}
+.currentLocation {
+  padding: 0.8em;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+}
+.gpsIcon {
+  height: 30px;
+  width: 30px;
+  filter: invert();
+}
+.search--option {
+  position: relative;
+  top: -100%;
+  left: -100%;
+  transition: 1s all;
+  background: #1e213a;
+  height: 100vh;
+}
+.show {
+  left: 0;
+}
+.crossIcon {
+  height: 30px;
+  filter: invert();
+  width: 30px;
+}
+.cross {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 3% 85% 1%;
+}
+.foreCast {
+  /* height: 100vh; */
+  padding: 1.5em 0;
+  width: 100%;
+  background: #100e1d;
+}
+.OtherDetails {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+h3 {
+  color: white;
+  padding: 0.3em;
+  font-size: 1.6rem;
+}
+/* .NextDays {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1em 0;
+  text-align: center;
+  column-gap: 5px;
+  width: 80%;
+  padding: 0em;
+  margin: 10px auto;
+  justify-content: space-around;
+} */
+@media screen and (min-width: 994px) {
+  .container {
+    flex-direction: row;
+  }
+  .navigation {
+    max-width: 30%;
+  }
+  .foreCast {
+    max-width: 75%;
+  }
+  .goToSearch {
+    padding: 0.8em;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #e7e7eb;
+    background: #6e707a;
+    border: none;
+  }
+  .currentLocation {
+    padding: 0.5em;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .OtherDetails {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,52 @@
+.description {
+  text-align: center;
+  margin: 0.2vh auto;
+}
+.icon {
+  width: 200px;
+  height: 200px;
+}
+.temperature {
+  font-size: 144px;
+  font-weight: 500;
+  color: #a09fb1;
+}
+h1 {
+  font-size: 3em;
+}
+sub {
+  vertical-align: baseline;
+  font-size: 48px;
+  font-weight: 100;
+  color: #e7e7eb;
+}
+.describe {
+  padding: 0.5em;
+  font-weight: 600;
+  font-size: 30px;
+  color: #a09fb1;
+}
+.dates {
+  font-size: 20px;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  padding: 0.3em;
+}
+p {
+  color: #88869d;
+  font-weight: 500;
+}
+.location {
+  display: flex;
+  width: 50%;
+
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.locationIcon {
+  height: 30px;
+  width: 20px;
+}

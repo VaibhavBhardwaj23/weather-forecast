@@ -1,0 +1,56 @@
+.wind {
+  width: 90%;
+  padding: 1em;
+  margin: 20px auto;
+  text-align: center;
+  background: #1e213a;
+  line-height: 1.5;
+}
+.wind h1 {
+  font-size: 70px;
+  color: white;
+}
+.wind sub {
+  font-size: 30px;
+}
+.wind p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.secondDiv {
+  width: 90%;
+  padding: 1em;
+  margin: 20px auto;
+  text-align: center;
+  background: #1e213a;
+  line-height: 2;
+}
+.bar {
+  border-radius: 10px;
+}
+.visibilePressure {
+  margin: 20px auto;
+}
+.visibilePressure h1 {
+  color: white;
+}
+.visibilePressure sub {
+  font-size: 25px;
+}
+@media screen and (min-width: 994px) {
+  .wind {
+    padding: 1em;
+    margin: 0 10px;
+    text-align: center;
+    background: #1e213a;
+    line-height: 1.5;
+  }
+  .secondDiv {
+    margin: 0 10px;
+  }
+  .wind_humid,
+  .visibilePressure {
+    display: flex;
+    justify-content: space-between;
+  }
+}

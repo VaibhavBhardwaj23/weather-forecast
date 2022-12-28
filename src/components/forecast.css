@@ -1,0 +1,62 @@
+.cardsForecast {
+  width: 120px;
+  height: 177px;
+  margin-bottom: 20px;
+  background-color: #1e213a;
+  text-align: center;
+  padding: 0.5em;
+}
+.cardsContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1em 0;
+  text-align: center;
+  column-gap: 5px;
+  width: 80%;
+  padding: 0em;
+  margin: 10px auto;
+  justify-content: space-around;
+}
+.highLow {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.Icon {
+  width: 90%;
+}
+p {
+  font-size: 18px;
+  color: white;
+}
+@media screen and (min-width: 660px) {
+  .cardsContainer {
+    grid-template-rows: auto auto;
+    margin: 20px auto;
+    grid-auto-flow: column;
+  }
+  .cardsForecast {
+    margin: 10px auto;
+  }
+}
+@media screen and (min-width: 764px) {
+  .cardsContainer {
+    grid-template-rows: none;
+    margin: 20px auto;
+    grid-auto-flow: column;
+  }
+  .cardsForecast {
+    margin: 10px auto;
+  }
+}
+@media screen and (min-width: 994px) {
+  .cardsContainer {
+    grid-template-rows: none;
+    margin: 20px auto;
+    grid-auto-flow: column;
+  }
+  .cardsForecast {
+    margin: 0;
+  }
+}

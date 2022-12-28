@@ -1,0 +1,31 @@
+input {
+  border-radius: 5px;
+  padding: 0.4em;
+  background-color: transparent;
+  outline: none;
+  width: 70%;
+  text-align: center;
+  font-size: 1.4rem;
+  border: 1px solid #e7e7eb;
+  color: #616475;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.8em 0.3em;
+}
+::placeholder {
+  color: #616475;
+  font-size: 1.4rem;
+}
+button {
+  background: #3c47e9;
+  padding: 0.6em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #e7e7eb;
+  border: none;
+  border-radius: 5px;
+}
